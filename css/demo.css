@@ -1,0 +1,139 @@
+#profile_pic {
+	float: left;
+	margin: 35px;
+	text-align: center;
+	padding: 15px;
+	border-radius: 200px;
+	max-width: 100%;
+	 height: auto;
+}
+
+#leanin_logo{
+    width: 3em;
+    height: auto;
+		border-radius: 17px;
+	}
+
+	.video-container {
+		position:relative;
+		padding-bottom:56.25%;
+		padding-top:30px;
+		height:0;
+		overflow:hidden;
+	}
+
+	.video-container iframe, .video-container object, .video-container embed {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+* {margin: 0; padding: 0; outline: 0;}
+
+
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #e5e5e5;
+	font-size: 12px;
+	background:#bfbfbf;
+
+
+}
+
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:0 0 15px 0;
+}
+
+
+h1 {
+	font-size: 36px;
+	letter-spacing: -1px;
+	line-height: 100%;
+}
+
+
+h2 {
+	font-size: 24px;
+}
+
+h4 {
+	color: #cc0000;
+	text-align: center;
+}
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: white;
+}
+
+
+
+.clear {
+	clear: both;
+}
+.wrap {
+
+}
+
+
+
+.section {
+
+}
+
+
+.inner {
+	margin-top: 50px;
+	margin-left: 15%;
+	position: relative;
+	min-height: 50px;
+	padding:0px 0 0 0 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+
+.subMenu {
+	z-index: 1000;
+
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+	color: pink;
+}
+
+
+
+
+
+.active {
+	background: #cc0000;
+	color: white;
+}
+.end {
+	margin: 0;
+}
+
+/*This makes the color of the links red*/
+.link {
+	color: #ee0000;
+	text-decoration: none;
+}
+
+.quotes {
+	color: #cc0000;
+	text-align: center;
+}
